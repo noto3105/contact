@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--item {
+    color: #8B7969;
+    margin-top: 10px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    color: #FF9494;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__input--name,
+.form__input--tel {
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--name input,
+.form__input--tel input {
+    width: 30%;
+}
+
+.form__input--tel span {
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.form__group-content {
+    display: flex;
+}
+
+.form__input--select {
+    justify-content: space-between;
+}
+
+/*姓名と電話番号と性別*/
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
